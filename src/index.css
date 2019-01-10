@@ -1,0 +1,83 @@
+* {
+  box-sizing:border-box;
+}
+.container,
+.app-main,
+html {
+  height: 99vh;
+}
+.container {
+  padding:0;
+  margin: auto;
+}
+body {
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 99vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+ hr {
+  border: none;
+  height: 1px;
+  color: #333; 
+  background-color: #333; 
+  margin-bottom:10px;
+}
+h4 {
+  padding: 5px;
+  margin: 5px;
+}
+.app-heading-hr{
+  border-bottom: 2px groove;
+}
+.app-additem__label {
+  padding-top: 6px;
+}
+.app-Todolist {
+  text-align: center;
+  height: 60px;
+  border-bottom: 1px outset;
+  border-radius: 2px;
+  padding: 10px; 
+  margin:20px;
+  margin-top:10px;
+  overflow: auto;
+  overflow-x: hidden;
+
+}
+.app-todolist-empty{
+  text-align: center;
+}
+.app-additem-text {
+  margin-top: 20px;
+} 
+.app-additem {
+  margin: 5px;
+  height: 22%;
+  overflow: auto;
+  overflow-x: hidden;
+}
+.app-todo, .app-completed {
+  margin: 5px;
+  height: 30%;
+  overflow: auto;
+  overflow-x: hidden;
+  margin:0;
+}
+
+.background-app {
+  position: fixed;
+  height: 100vh;
+  top:0;
+  left:0;
+  background-color: coral;
+  z-index: 1;
+}
